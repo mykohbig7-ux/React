@@ -10,9 +10,12 @@ import Accommodate from './chapter_07/Accommodate.jsx';
 import ConfirmButton from './chapter_08/ConfirmButton.jsx';
 import LandingPage from './chapter_09/LandingPage.jsx';
 import AttendanceBook from './chapter_10/AttendanceBook.jsx';
+import SignUp from './chapter_11/SignUp.jsx';
+import Calculator from './chapter_12/Calculator.jsx';
+import ProfileCard from './chapter_13/ProfileCard.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AttendanceBook />
+    <ProfileCard />
   </StrictMode>,
 )
